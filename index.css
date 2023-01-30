@@ -1,3 +1,6 @@
+.bg{
+    background-color: #141C23;
+}
 nav h3{
     margin-right: 10px;
     color: #FFCA2C;
@@ -10,11 +13,13 @@ nav button{
     height: 100vh;
     background-image: url(img/header_photo.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    
 }
 .not_slider{
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.65);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,17 +31,85 @@ color: white;
     margin: 0 0  25px 25px;
     color: #FFCA2C;
 }
-.button_section .col-6{
+.button_section .col-12{
     margin: 15px 0 0 0;
     display: flex;
+    justify-content: center;
 
+}
+.button_section .btn{
+    padding: 8px 60px;
+
+}
+
+.product{
+    margin: 25px 0;
+    color: white;
+}
+.product img{
+    width: 100%;
+}
+.product .col-md-6 h2{
+    display: flex;
+    justify-content: center;
+}
+.product p{
+    text-align: center;
+}
+.product img{
+    border-radius: 2%;
+}
+.product .btn{
+    padding: 4px 60px;
+    margin-bottom: 15px;
+}
+.product .prod_btn{
+    display: flex;
+    justify-content: center;
 }
 
 
 
 
+.examples{
+    color: white;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.5);
+}
+.guitar_background img{
+    width: 100%;
+}
+.guitar_background{
+    padding: 0px!important;
+}
+.photo_with_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.stretch{
+    display: flex;
+    align-items: center;
+
+}
+
+.email{
+    color: white;
+    margin: 25px 0;
+}
+.email .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+
+.footer{
+    background-color: #212529;
+}
 .border_footer{
     height: 1px;
-    background-color: #395A62;
+    background-color: #6c757d;
     margin: 0 0 15px 0;
 }
